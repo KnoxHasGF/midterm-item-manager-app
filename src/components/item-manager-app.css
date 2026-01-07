@@ -1,0 +1,59 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20px; /* Header alignment */
+}
+
+/* Table basic style */
+.item-table {
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.item-table th,
+.item-table td {
+  border-bottom: 1px solid black;
+}
+
+/* Header */
+#h1 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+/* Table spacing */
+#data-area {
+  margin-top: 10px;
+}
+
+.item-table th,
+.item-table td {
+  padding: 6px 8px;
+}
+
+/* Input fields inside table */
+.item-table input,
+.item-table select {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Add button */
+.item-table button {
+  padding: 4px 10px;
+  cursor: pointer;
+}
+
+/* Error message */
+#error-message {
+  margin-top: 10px;
+  color: red;
+  font-size: 0.9rem;
+}
+
+/* Delete icon hover effect */
+.item-table img {
+  vertical-align: middle;
+}
+
+.item-table img:hover {
+  opacity: 0.7;
+}
